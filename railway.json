@@ -1,0 +1,14 @@
+{
+  "services": {
+    "twenty-server": {
+      "rootDirectory": "packages/twenty-server",
+      "buildCommand": "yarn install && npx nx build twenty-server",
+      "startCommand": "npx nx start twenty-server"
+    },
+    "twenty-front": {
+      "rootDirectory": "packages/twenty-front",
+      "buildCommand": "yarn install && npx nx build twenty-front",
+      "startCommand": "npx nx start twenty-front"
+    }
+  }
+}
